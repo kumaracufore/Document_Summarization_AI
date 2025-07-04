@@ -1,0 +1,4 @@
+Brief Summary:
+Extensive lecture notes from Veer Surendra Sai University’s Electrical Engineering department covering conventional and non-conventional energy sources, with detailed modules on solar thermal and photovoltaic systems, wind power, energy storage (batteries, flywheels), hybrid microgrids, grid integration, and India’s energy scenario and environmental impacts. Document appears to be instructor-compiled OCR of teaching material for a 7th-semester B.Tech course.
+
+Confidence Score: 8/10

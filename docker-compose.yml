@@ -1,0 +1,28 @@
+services:
+  python-backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend.python
+    container_name: fastapi-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./server/uploads:/app/uploads
+    networks:
+      - upload-net
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: react-frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - python-backend
+    networks:
+      - upload-net
+
+networks:
+  upload-net:
+    driver: bridge

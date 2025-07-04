@@ -1,0 +1,56 @@
+Summary:
+This document serves as a comprehensive guide for university faculty and staff on handling scanned documents, performing optical character recognition (OCR), and ensuring PDF accessibility using Adobe Creative Cloud (CC) and related tools. It is intended to inform users about the availability of Adobe CC software on institution-owned devices, outline best practices for converting scanned images into accessible, searchable PDFs, and describe multiple workflows and toolsets—within Adobe Acrobat DC, through Canvas Ally, or via export to editable formats. The primary purpose is to help content creators and document managers produce digital materials that comply with accessibility standards, facilitating use by individuals relying on screen readers and other assistive technologies.
+
+Content Summary:
+
+1. Adobe Creative Cloud Deployment and Software Overview  
+The guide begins by announcing that Adobe Creative Cloud applications are now available at no extra charge on all university-owned faculty, staff, laboratory, and classroom computers, as well as on student machines. It clarifies that this deployment excludes personally owned devices for faculty and staff. A distinction is drawn between Adobe Reader, which supports PDF viewing, printing, annotation, and signing but lacks accessibility-checking capabilities, and Adobe Acrobat DC, which includes advanced OCR and accessibility features.
+
+2. Challenges with Scanned Documents  
+Scanned documents—particularly those of poor quality or containing handwriting—are highlighted as problematic for accessibility. Because scans consist of images, screen readers and other assistive technologies cannot interpret text embedded within them. The guide urges minimization of scanned content and, where possible, the provision of library references to original digital sources. It also underscores the advantages of having a native digital copy: full-text searchability and the ability to copy and paste text segments.
+
+3. OCR Fundamentals and Live Text  
+Optical character recognition transforms image-based scans into machine-readable text. The document emphasizes that OCR success depends heavily on scan resolution and the capabilities of the OCR engine. It warns of common pitfalls such as colored backgrounds, handwritten notes, and low-quality scans. Once OCR has been applied effectively, the resulting “live” or “real” text can be selected with a cursor, searched with commands like CTRL+F, and repurposed by copying and pasting—features essential for accessibility and user convenience.
+
+4. Setting Up Accessibility Tools in Acrobat  
+To streamline the process of making PDFs accessible, users are instructed to customize the Acrobat interface by adding three key shortcuts—Accessibility, Action Wizard, and Scan & OCR—to the Tools pane. This setup ensures that critical functions are readily available for subsequent workflows involving tagging, checking, and enhancing scanned documents.
+
+5. Three Workflows for Converting Scanned Documents  
+The document outlines three principal methods for creating accessible PDFs from scanned sources:
+
+ • Direct OCR and Manual Tagging in Acrobat  
+   Users invoke the Scan & OCR function to recognize text, often repeating the enhance operation to improve clarity. After OCR, documents are auto-tagged, and a thorough review of tags is performed. Tags—labels such as Paragraph, Heading 1–6, Figure, Link, Form, and Artifact—are adjusted to reflect document structure accurately. The process concludes with initial and final accessibility checks, verification of reading order, document metadata (title and language), and color contrast.
+
+ • The Acrobat Action Wizard (“Make Accessible”)  
+   This semi-automated approach guides users through a sequence of prompts to assign document titles, select OCR language and output options, detect form fields, add alternative text for images, and run full accessibility checks. While the Action Wizard expedites many routine tasks, the guide stresses that manual review remains essential to address items flagged as “Needs Manual Check” or failed checks before deeming a PDF fully accessible.
+
+ • Canvas Ally Integration  
+   For materials uploaded to the institution’s learning management system, users can leverage Canvas Ally to automatically enhance scan quality, perform OCR, and apply basic tags. Although Ally provides a convenient turn-key solution, it still requires users to inspect and correct tag assignments and run accessibility validations in Acrobat to ensure compliance.
+
+6. Mobile Scanning via Adobe Scan  
+The guide briefly introduces the Adobe Scan mobile app for iOS and Android. This free tool captures paper-based content with a device camera, converts images into PDFs, and applies OCR on the fly. It is presented as a practical option for quick digitization, demonstrating mobile-based scanning capabilities and illustrating how on-the-go content can be integrated into accessible workflows.
+
+7. Handling Documents Without Source Files  
+When a native source (e.g., Word or InDesign file) is unavailable, the document recommends exporting the PDF to editable formats—such as Word or PowerPoint—directly within Acrobat. This conversion facilitates structural adjustments, including the application of heading styles and style-based formatting. Users are cautioned to verify alignment, character recognition, and other formatting details post-export.
+
+8. Direct Formatting Versus Styles-Based Formatting  
+A key accessibility principle addressed is the difference between direct (manual) formatting and styles-based formatting in word processing documents. Direct formatting, though visually effective, offers no structural information to assistive technology and precludes automated navigation features like a table of contents. In contrast, style-based formatting uses semantic tags (e.g., Heading 1–6, Normal) to define document hierarchy, enabling screen readers to interpret and navigate content efficiently.
+
+9. Headings and Document Structure  
+The guide underscores the importance of logical and sequential heading styles for long or complex documents. It describes the recommended use of Heading 1 for the main title, followed by descending levels for sections and subsections. Proper heading structure not only enhances readability for all users but also ensures that assistive technology can present a navigable outline of the document.
+
+10. Editing Original PDFs  
+An optional approach allows users to directly modify text and other elements within an existing PDF. This method can save time when small corrections are needed but may necessitate retagging if substantial structural changes occur.
+
+11. Understanding Tagged PDFs  
+Tags in a PDF function similarly to HTML markup, assigning semantic roles—such as paragraph, heading, list item, table cell, or figure—to document elements. These invisible identifiers guide screen readers and other assistive tools in interpreting content order and purpose. The guide details how to access the Tags pane, view the tag tree, and confirm that each element is correctly identified and arranged in logical reading order.
+
+12. Accessibility Checking and Common Issues  
+Running a full accessibility check—both at the start and after edits—is presented as an essential quality-assurance step. The Acrobat Accessibility Checker flags failures and items requiring manual review. Common issues, such as missing document titles or incorrect language settings, are highlighted along with general strategies for resolving them. Users are reminded that any “Needs Manual Check” or failed items must be addressed before declaring a PDF accessible.
+
+13. PDF Title and Language Metadata  
+Finally, the document explains that a descriptive PDF title—distinct from the file name—and correct language metadata are vital for screen readers and user orientation. These properties appear in document properties and can be edited to provide meaningful context for assistive technologies.
+
+Overall, the guide offers a structured overview of best practices for converting and preparing scanned materials into fully accessible, searchable PDFs. It balances automated tools with necessary manual oversight and provides multiple pathways—ranging from in-depth Acrobat workflows to streamlined LMS integrations—to accommodate various user needs and resource availabilities.
+
+Confidence Score: 9/10

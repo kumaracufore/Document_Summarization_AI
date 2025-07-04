@@ -1,0 +1,41 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #eef3f7;
+}
+
+.login-card {
+  display: flex;
+  width: 800px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.form-section {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-section h2 {
+  margin-bottom: 24px;
+}
+
+.illustration {
+  flex: 1;
+  background-color: #f7faff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.illustration img {
+  width: 100%;
+  max-width: 320px;
+}

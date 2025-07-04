@@ -1,0 +1,34 @@
+.upload-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f4f8;
+}
+
+.upload-card {
+  display: flex;
+  width: 900px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.upload-card .form-section {
+  flex: 1;
+  padding: 40px;
+}
+
+.upload-card .illustration {
+  flex: 1;
+  background-color: #f8fbff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload-card .illustration img {
+  width: 100%;
+  max-width: 300px;
+}
